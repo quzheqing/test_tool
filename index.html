@@ -6,9 +6,12 @@
 	<style type="text/css">
 		*{ margin:0; padding:0;}
 		ul{ list-style: none;}
-		a{ text-decoration: none;}
+		a{ text-decoration: none; color: #ccc;}
 		.list{ border: 1px solid red;}
-		.list ul li{ float: left; }
+		/*three 添加代码*/
+		.list ul { width: 1000px; height: 40px; line-height: 40px; border: 2px solid blue; }
+		.list ul li { float: left; border: 1px dashed green; }
+		.list ul li a { display: block; height: 100%; padding: 0 20px;}
 	</style>
 </head>
 <body>
@@ -19,7 +22,7 @@
 	<div>我是master添加的一行代码</div>
 
 	<!-- dev_one 上添加的一行代码 -->
-	<div class=“list”>
+	<div class="list">
 		dev_one 写一个ul列表
 		<ul>
 			<li><a href="#">京东商城</a></li>
